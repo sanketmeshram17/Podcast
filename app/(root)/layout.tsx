@@ -25,14 +25,13 @@ export default function RootLayout({
               <MobileNav />
             </div>
 
-            <div>
+            <div className="flex flex-col md:pb-14">
               Toaster (notification popups)
               {children}
             </div>
           </div>
         </section>
         <RightSidebar />
-        <p className="text-white-1">Right sidebar</p>
       </main>
     </div>
   );
