@@ -10,6 +10,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "blessed-panther-560.convex.cloud",
       },
+      {
+        protocol: "https",
+        hostname: "img.clerk.com",
+      },
     ],
   },
 };
